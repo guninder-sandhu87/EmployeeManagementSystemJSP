@@ -1,0 +1,65 @@
+body {
+    color: white;
+    background: #edf2f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    flex-direction: column;
+
+}
+
+#myHeader {
+    text-align: center;
+    background: #8d99ae;
+    padding: 10px;
+    border-style: solid;
+    border-color: #edf2f4;
+    width: 100%;
+}
+
+#myHeader h1 {
+    background: #8d99ae;
+    margin: 0;
+}
+
+#myLoginForm {
+
+
+    background-color: #8d99ae;
+    width: 50%;
+
+    text-align: center;
+    padding: 20px; /* Increase padding for better spacing */
+
+    max-width: 400px; /* Limit the maximum width of the form */
+    border-radius: 5px;
+
+}
+
+#myRegisterForm {
+
+
+    background-color: #8d99ae;
+    width: 50%;
+
+    text-align: center;
+    padding: 20px; /* Increase padding for better spacing */
+
+    max-width: 400px; /* Limit the maximum width of the form */
+    border-radius: 5px;
+
+
+}
+
+form label{
+    margin: 5px;
+}
+
+form input{
+    margin: 5px;
+}
+
+
+
