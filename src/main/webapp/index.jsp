@@ -6,8 +6,15 @@
 </head>
 <body>
 <%@include file="header.jsp"%>
-<div id="myLoginForm">
-    <form action="welcome.jsp" method="post">
+<%
+    request.getAttribute("message");
+    String message = (String)request.getAttribute("message");
+    if(message!=null){
+       out.println("<p>"+message+"</p>");
+    }
+%>
+<div id="myForm">
+    <form action="addEmployee" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
         <label for="username">Password:</label>

@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: black;
     background: #edf2f4;
     margin: 0;
     padding: 0;
@@ -24,11 +24,12 @@ body {
     margin: 0;
 }
 
-#myLoginForm {
+#myForm {
 
 
     background-color: #8d99ae;
     width: 50%;
+    height:80%;
 
     text-align: center;
     padding: 20px; /* Increase padding for better spacing */
@@ -38,20 +39,7 @@ body {
 
 }
 
-#myRegisterForm {
 
-
-    background-color: #8d99ae;
-    width: 50%;
-
-    text-align: center;
-    padding: 20px; /* Increase padding for better spacing */
-
-    max-width: 400px; /* Limit the maximum width of the form */
-    border-radius: 5px;
-
-
-}
 
 form label{
     margin: 5px;
