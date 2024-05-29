@@ -15,7 +15,9 @@ public class DbDaoImplementation implements DbDao {
     private final Logger logger = LogManager.getLogger();
 
     private void getConnection() {
-        String url = "jdbc:mysql://localhost:3306/EmployeeManagement";
+        //String url = "jdbc:mysql://localhost:3306/EmployeeManagement";
+        //this is to run on docker as have named mysql container as mysql_compose in docker compose file
+        String url = "jdbc:mysql://mysql_compose:3306/EmployeeManagement";
         String userName = "root";
         String password = "password";
 
