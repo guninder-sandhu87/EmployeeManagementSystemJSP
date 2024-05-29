@@ -1,0 +1,10 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢˜®Íşÿÿÿÿ8¦Ê€‘ü1J$8495c6c8-a9ec-47f0-98d2-21e7935dfc67
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üåÓ½úÿÿÿÿ8©Ê€‘ü1J$55ce109e-eb73-4b86-a03c-bf872617e4d1
+k
+java:S1948"(Make "logger" transient or serializable.(¥Ã¨8ÂÊ€‘ü1J$0bc8fcf1-31fc-42de-b6a4-0e37c290db91
+“
+java:S1989&"PHandle the following exception that could be thrown by "getWriter": IOException.(¾šçŞ8ÎÊ€‘ü1J$ba882bd8-a754-4ce4-ac21-f91fe1fedf2d
+
+java:S1128
+"=Remove this unused import 'jakarta.servlet.http.HttpSession'.(Çê°8ÏÊ€‘ü1J$4e9746f9-a8b2-4dc3-9832-7caa0deafcff

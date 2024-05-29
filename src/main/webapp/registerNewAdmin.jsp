@@ -6,7 +6,7 @@
 </head>
 <body>
 <%@include file="header.jsp"%>
-<div id="myRegisterForm">
+<div id="myForm">
     <h1>Please enter the below details</h1>
     <form action="register" method="post">
         <label for="firstName">First Name </label>

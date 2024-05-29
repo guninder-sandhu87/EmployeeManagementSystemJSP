@@ -17,5 +17,7 @@ public interface DbDao {
 
     public Employee[] listAllEmployee();
 
+    public boolean validateUser(String userName, String password);
+
 
 }
